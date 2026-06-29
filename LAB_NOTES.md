@@ -32,7 +32,7 @@ Fixed to:
 if (case.get("parsing_obs") or "").startswith("ragged"):
 ```
 
-This pattern now appears in the lab's MEMORY.md tooling gotchas.
+This `case.get(x) or ""` pattern is a common Python gotcha worth noting – `dict.get(key, default)` only uses the default when the key is missing, not when it exists with value `None`.
 
 ## Sniffer heuristic scoring
 
