@@ -32,7 +32,7 @@ Environment:
 - Python: 3.12.3
 - Platform: Linux-6.17.0-1009-aws-x86_64-with-glibc2.39
 - csv module: available (stdlib)
-- csv.list_dialects(): ['excel', 'excel-tab', 'unix_dialect']
+- csv.list_dialects(): ['excel', 'excel-tab', 'unix']
 - Cases: 52
 - Methods: 16
 - Subprocesses: 0
